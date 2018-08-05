@@ -1,0 +1,18 @@
+{
+    "menu": [
+        { "id":1, "item": "MARGHERITA COM QUEIJO MINAS", "price": "R$ 55,00", "description": "Molho de tomate, queijo minas, tomate em rodelas, manjericão e parmesão.", "image": "https://d1rwnofpkbr0d4.cloudfront.net/site/images/cardapio/pizzas/margherita_com_queijo_minas.jpg" },
+        { "id":2, "item": "FRANGO COM CATUPIRY E QUEIJO MINAS", "price": "R$ 20,00", "description": "Molho de tomate, queijo minas, Catupiry e frango desfiado.", "image": "https://d1rwnofpkbr0d4.cloudfront.net/site/images/cardapio/pizzas/pizza_integral_frango_com_catupiry.jpg" },
+        { "id":3, "item": "PRESUNTO", "price": "R$ 50,00", "description": "Molho de tomate, muçarela e presunto.", "image": "https://d1rwnofpkbr0d4.cloudfront.net/site/images/cardapio/pizzas/pizza_presunto.jpg" },
+        { "id":4, "item": "MUÇARELA", "price": "R$ 40,00", "description": "Molho de tomate e muçarela.", "image": "https://d1rwnofpkbr0d4.cloudfront.net/site/images/cardapio/pizzas/pizza_mussarela.jpg"},
+        { "id":5, "item": "NAPOLITANA", "price": "R$ 42,00", "description": "Molho de tomate, mussarela, tomate e orégano.", "image": "https://d1rwnofpkbr0d4.cloudfront.net/site/images/cardapio/pizzas/napolitana.jpg" },
+        { "id":6, "item": "ROMANA", "price": "R$ 45,00", "description": "Molho de tomate, muçarela, pimentão, cebola, tomate e azeitonas.", "image": "https://d1rwnofpkbr0d4.cloudfront.net/site/images/cardapio/pizzas/pizza_romana.jpg" },
+        { "id":7, "item": "CALABRESA", "price": "R$ 53,00", "description": "Molho de tomate, muçarela e calabresa.", "image": "https://d1rwnofpkbr0d4.cloudfront.net/site/images/cardapio/pizzas/pizza_calabresa.jpg" },
+        { "id":8, "item": "CHOCOLATE COM MORANGO", "price": "R$ 51,00", "description": "Chocolate derretido com morangos.", "image": "https://d1rwnofpkbr0d4.cloudfront.net/site/images/cardapio/pizzas/chocolate_morango.jpg"},
+        { "id":9, "item": "AMERICANA", "price": "R$ 43,00", "description": "Molho de tomate, muçarela, bacon e azeitonas pretas.", "image": "https://d1rwnofpkbr0d4.cloudfront.net/site/images/cardapio/pizzas/pizza_americana.jpg"}
+    ],
+    "qualification": [
+        { "id": "Ana", "description": "some comment", "date": 1 },
+        { "id": "Ana", "description": "some comment", "date": 1  },
+        { "id": "Ana", "description": "some comment", "date": 1 }
+    ]
+}

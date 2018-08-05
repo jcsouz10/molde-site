@@ -1,0 +1,39 @@
+.container { 
+	height: 100vh;
+}
+
+.main {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	
+
+	min-height: 100vh;
+	background-color: #007849
+}
+
+.welcome {
+	font-family: Georgia, serif;	
+	font-size: 50px;
+	margin: 15px;
+	text-align: center;
+}
+
+.imgHomeRecomendation {
+	display: flex;
+    align-items: center;
+}
+
+.imgHomeRecomendation1 {
+    height: auto;
+    max-width: 300px;
+}
+
+.link {
+	text-decoration: none;
+	color: white;
+	text-align: center;
+}
+
+	

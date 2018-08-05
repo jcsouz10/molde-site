@@ -1,0 +1,18 @@
+.footer {
+	background-color: #FFCE00;
+	padding: 1em;	
+	color: white;
+	
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.itemFooter {
+	margin: 5px;
+	background-color: #0375B4;
+	text-align: center;
+	font-size: 1.2em;
+}
+
