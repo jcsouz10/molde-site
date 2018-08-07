@@ -4,7 +4,9 @@ import axios from 'axios';
 
 import Footer from '../../component/footer/footer.js';
 import NavBar from '../../component/navbar/navbar.js';
-import Main from './main.js';
+import BoxItemCardapioSelected from '../../component/boxItemCardapioSelected/boxItemCardapioSelected';
+
+import Main from '../../component/main/Main.js';
 
 class PageItem extends React.Component {
     constructor(props) {
@@ -28,8 +30,10 @@ class PageItem extends React.Component {
     render() {
         return (
             <div className="container">
-                <NavBar/>
-                <Main id={this.state.itemClicked}/>
+                <NavBar />
+                <Main>
+                    <BoxItemCardapioSelected id={this.state.itemClicked}/>
+                </Main>
                 <Footer/>
             </div>
         )

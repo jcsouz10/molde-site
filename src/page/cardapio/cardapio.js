@@ -2,13 +2,19 @@ import React from 'react';
 
 import Footer from '../../component/footer/footer.js';
 import NavBar from '../../component/navbar/navbar.js';
-import Main from './main.js';
+import Main from '../../component/main/Main.js';
+import BoxItemCardapio from '../../component/boxItemCardapio/BoxItemCardapio';
 
-const Cardapio = ({match}) => {    
+import { Title } from '../styled.js';
+
+const Cardapio = () => {
     return (
         <div>
             <NavBar />
-            <Main />
+            <Main>
+                <Title> VEJA TODOS OS NOSSOS PRATOS </Title>
+                <BoxItemCardapio />
+            </Main>
             <Footer />
         </div>
     )

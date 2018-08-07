@@ -24,7 +24,8 @@ class Qualification extends React.Component {
     render() {
         return (
             <div className="qualification">
-                {this.state.qualifications.map(i => <BoxQualification qualifications={i} />)}
+            <div> <img className="imgHomeRecomendation1" src="https://uploaddeimagens.com.br/images/001/545/726/original/recomenda%C3%A7%C3%B5es.png?1533431367" /></div>    
+            <div className="div"> {this.state.qualifications.map(i =>  <BoxQualification qualifications={i} />  )} </div>
             </div>
         )
     }

@@ -1,19 +1,20 @@
 import React from 'react';
-import './styled.css';
+
+import { ImageBox, DescriptionItem, ContainerBox } from './styled.js';
 
 const Box = ({ item, preco, image }) => {
     return (
-        <div className="box">
+        <ContainerBox>
             <div>
-                <img className="imgBox" src={image} />
+                <ImageBox src={image} />
             </div>
             <div>
                 {item}
             </div>
-            <div className="descriptionItemBox">
+            <DescriptionItem>
                 {preco}
-            </div>
-        </div>
+            </DescriptionItem>
+        </ContainerBox>
     )
 }
 
