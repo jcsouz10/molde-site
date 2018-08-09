@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import axios from 'axios';
 
 
@@ -29,13 +29,13 @@ class PageItem extends React.Component {
 
     render() {
         return (
-            <div className="container">
+            <Fragment>
                 <NavBar />
                 <Main>
                     <BoxItemCardapioSelected id={this.state.itemClicked}/>
                 </Main>
                 <Footer/>
-            </div>
+            </Fragment>
         )
     }
 }

@@ -2,20 +2,15 @@ import React from 'react';
 
 import { ImageBox, DescriptionItem, ContainerBox } from './styled.js';
 
-const Box = ({ item, preco, image }) => {
-    return (
+const Box = ({ item, preco, image }) => ( 
         <ContainerBox>
-            <div>
-                <ImageBox src={image} />
-            </div>
-            <div>
-                {item}
-            </div>
+            <ImageBox src={image} />
+            {item}
             <DescriptionItem>
                 {preco}
             </DescriptionItem>
         </ContainerBox>
     )
-}
+
 
 export default Box;
