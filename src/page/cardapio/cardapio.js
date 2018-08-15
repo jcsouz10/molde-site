@@ -6,7 +6,7 @@ import Main from '../../component/main/Main.js';
 import ButtonViewMore from '../../component/buttonViewMore/buttonViewMore';
 import Box from '../../component/box/box';
 
-import { Link  } from "react-router-dom";
+import { Link } from "react-router-dom";
 import axios from 'axios';
 
 import { Title } from '../styled.js';

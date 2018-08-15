@@ -24,7 +24,7 @@ class PageItem extends React.Component {
         axios.get(`http://localhost:3000/menu/${id}`)
             .then(res =>
                 this.setState({ item: res.data })
-            ).catch(err=>console.log(err))
+            ).catch(err => console.log(err))
     }
 
     render() {
@@ -32,9 +32,9 @@ class PageItem extends React.Component {
             <Fragment>
                 <NavBar />
                 <Main>
-                    <BoxItemCardapioSelected id={this.state.itemClicked}/>
+                    <BoxItemCardapioSelected id={this.state.itemClicked} />
                 </Main>
-                <Footer/>
+                <Footer />
             </Fragment>
         )
     }

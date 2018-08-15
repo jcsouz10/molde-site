@@ -1,8 +1,8 @@
 import React from 'react';
 
-import {ContainerMain} from './styled.js';
+import { ContainerMain } from './styled.js';
 
-const Main = ({children}) => {
+const Main = ({ children }) => {
     return (
         <ContainerMain>
             {children}

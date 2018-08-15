@@ -22,7 +22,7 @@ class Header extends React.Component {
             }, {
                 item: "Fale Conosco",
                 icon: "http://cdn.onlinewebfonts.com/svg/img_401526.png"
-                }],
+            }],
             statusColor: "yellow"
         }
 

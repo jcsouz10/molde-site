@@ -15,7 +15,7 @@ class BoxItemCardapioSelected extends React.Component {
     componentDidMount() {
         axios.get(`http://localhost:3000/menu/${this.props.id}`)
             .then(res =>
-                this.setState({ item: res.data}))
+                this.setState({ item: res.data }))
             .catch(err => console.log(err))
     }
 
