@@ -19,9 +19,7 @@ const HomePage = () => {
             <Header />
             <Main>
                 <Title> Bem-vindo a Pizzaria Jotace </Title>
-
                     <strong> Veja alguns dos nossos items </strong>
-
                 <ContainerHome />
                     <Link className="link" to="cardapio"><ButtonViewMore label="VER TUDO" /></Link>                
                 <Qualification />

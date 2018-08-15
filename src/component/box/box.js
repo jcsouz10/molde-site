@@ -5,7 +5,7 @@ import { ImageBox, DescriptionItem, ContainerBox } from './styled.js';
 const Box = ({ item, preco, image }) => ( 
         <ContainerBox>
             <ImageBox src={image} />
-            {item}
+                {item}
             <DescriptionItem>
                 {preco}
             </DescriptionItem>
