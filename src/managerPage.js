@@ -8,7 +8,8 @@ class ManagerPage extends React.Component {
 
         this.state = {
             product: '',
-            name: ''
+            name: '',
+            message: ''
         }
     }
     
@@ -24,7 +25,7 @@ class ManagerPage extends React.Component {
         const { name, product } = this.state;
 
         axios.post('/api/post', { name: name, product: product })
-            .then(response => console.log(response))
+            .then(response => this.setState({message: response.data}))
             .catch(response => console.log(response))
     }
 
@@ -34,6 +35,7 @@ class ManagerPage extends React.Component {
                 <input placeholder="Insert your name" onChange={this.handleName} />
                 <input placeholder="Insert your product" onChange={this.handleProduct} />
                 <button onClick={this.handleInsertItems}> Inserir </button>
+                <h3> {this.state.message} </h3>
             </div>
         )
     }
