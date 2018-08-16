@@ -26,7 +26,7 @@ class ManagerPage extends React.Component {
 
         axios.post('/api/post', { name: name, product: product })
             .then(response => this.setState({message: response.data}))
-            .catch(response => console.log(response))
+            .catch(error => this.setState({ message: error.response.data }))
     }
 
     render() {
